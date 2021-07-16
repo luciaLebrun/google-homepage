@@ -1,0 +1,141 @@
+body, input, button {
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    color: #222;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#body{
+    display: flex;
+    flex-direction: column;
+}
+
+div{
+    display: block;
+}
+
+#nav{
+    margin: 10px;
+    padding-bottom: 13.5em;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#informations{
+    float: right;
+}
+
+#informations>a{
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.info-elem{
+    color: rgba(0,0,0,0.87);
+}
+
+#profile-img{
+    height: 32px;
+    width: 35px;
+    background-size: 32px 35px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+}
+
+#logo{
+    margin-bottom: 25px;
+}
+
+#searchbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 580px;
+    padding: 0.5rem;
+    padding-right: 1.5rem;
+    border: 0.1px solid #ddd;
+    border-radius: 30px;
+}
+
+#searchbar:hover,
+#searchbar:focus-within{
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+}
+
+input{
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+}
+
+#google-microphone{
+    cursor: pointer;
+}
+
+button{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    height: 36px;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-right: 5px;
+}
+
+button:hover{
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+}
+
+
+#translate{
+    font-size: small;
+    margin-top: 20px;
+}
+
+
+/*================= FOOTER =================*/
+
+#footer{
+    background: #f2f2f2;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    bottom: 0;
+    color: #70757a;
+    width: 100%;
+}
+
+#up-section{
+    border-bottom: 1px solid #dadce0;
+    padding: 15px;
+}
+
+#up-section>p{
+    margin: 0;
+    padding-left: 15px;
+}
+
+#bot-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.footer-link{
+    padding: 15px;
+}
